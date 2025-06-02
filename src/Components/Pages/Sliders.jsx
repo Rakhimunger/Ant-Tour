@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import kedarnath2 from "../../assets/Images/Kedarnath2.jpg";
+import kedarnath1 from "../../assets/Images/Kedarnath2.jpg";
 import Chardham1 from "../../assets/Images/Chardham1.jpg";
 import { Link } from "react-router-dom";
 
 const Slider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [Chardham1, kedarnath2];
+  const images = [Chardham1, kedarnath1];
 
   useEffect(() => {
     const interval = setInterval(() => {
